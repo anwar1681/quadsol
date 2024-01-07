@@ -12,6 +12,7 @@ def eqnsol1():
     x2 = round((-b - D)/(2*a),2)
     print(f'First root of the eqn X1: {x1}')
     print(f'Second root of the eqn X2: {x2}')
+    return x1, x2
 
 if __name__ =='__main__':
     eqnsol1()
